@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    margin: 20px auto;
+    
+}
+
+.A{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    align-items: center; 
+    align-content: center;
+    background-image: url(./images/bg-pattern-top-desktop.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+h1{
+    color: hsl(300, 43%, 22%);
+    font-size: 40px;
+    text-align: start;
+}
+.PG{
+    color: hsl(303, 10%, 53%) ;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+
+}
+.box{
+    width: 536px;
+    display: grid;
+    grid-template-columns: 1fr 10px 1fr;
+    grid-template-areas:
+    "one one .."
+    "..three three"; 
+}
+.one{
+grid-area: one;
+}
+.two{
+grid-area: two;
+}
+.three{
+grid-area: three;
+}
+
+.stars{
+    height: 60px;
+    border-radius: 4px;
+    background-color: hsl(300, 24%, 96%);
+    display: grid;
+    grid-template-columns:120px 250px;
+    margin: 6px auto;
+    align-items: center;
+    align-content: center;
+    padding-left: 77px;
+    margin-left: 25px;
+}
+.dec{
+    position: relative;
+    bottom: -2px;
+    margin-left: 0px;
+}
+
+.B{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    align-content: center;
+    background-image: url(./images/bg-pattern-bottom-desktop.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.card{
+    background-color: hsl(300, 43%, 22%);
+    width: 370px;
+    height: 270px;
+    margin: 5px auto;
+    border-radius: 4px;
+    color: hsl(0, 0%, 100%);
+}
+.img{
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.var{
+    color: hsl(333, 80%, 67%);
+    position: relative;
+    left: 35%;
+    bottom: 55px;
+}
+.name{
+    position: relative;
+    left: 35%;
+    bottom: 63px;
+}
+.irene{
+    position: relative;
+    top: 20px;
+}
+.anne{
+    position: relative;
+    top: 40px;
+}
+h6{
+    margin: 70px auto;
+    position: relative;
+    bottom: 70px;
+    opacity: 70%;
+    font-size: 15px;
+}
+@media(max-width:375){
+  .stars{
+      display: grid;
+      grid-template-columns: 1fr;
+     align-items: center;
+      
+  }
+}
+

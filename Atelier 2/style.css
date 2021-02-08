@@ -1,0 +1,173 @@
+body{
+   background-color: hsl(229, 57%, 11%);
+   background-image: url(./images/bg-desktop.png);
+   background-repeat: no-repeat;
+   background-size: 110%;
+   background-position-y: 350px ;
+}
+
+.box1{
+    width: 200px;
+    background:hsl(228, 56%, 26%) ;
+    padding: 20px;
+    border-radius: 5px 60px 5px 5px;
+    margin-right: 20px;
+}
+.icon{
+    margin-top: 15px;
+}
+.ic{
+    background-color: hsl(229, 57%, 11%);
+    height: 20px;
+    padding: 13px;
+    width: 20px;
+    margin-right: 7px;
+    border-radius: 10px;
+
+}
+.box2{
+    background-color:#1d2c67;
+    height: 120px;
+    width: 600px;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+   
+
+}
+.progress-bar{
+    width: 90%;
+    height: 20px;
+    border-radius: 20px;
+    background: #220059;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left:5%;
+    margin-top: 12px;
+}
+.progress{
+    height: 14px;
+    margin: 3px;
+    width: 70%;
+    border-radius: 10px;
+    background-image: linear-gradient(#e66465, #dff70a);
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.btn{
+    height: 11px;
+    width: 11px;
+    background: #ffffff;
+    margin-right: 1px;
+    border-radius: 11px;
+    box-shadow: #0000004d 0px 3px;
+}
+ p{
+    color: hsl(230deg, 33%,62%);
+    margin:5% 0 0 5%;
+    padding-top: 15px;
+
+}
+.container{
+    margin-top: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gb{
+    color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    position: relative;
+    bottom: 30px;
+   
+ 
+}
+.left{
+    background-color:#ffffff ;
+    position: relative;
+    bottom: 240px;
+    left: 392px;
+    width: 178px;
+    height: 72px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.trec{
+    width: 0; 
+    height: 0; 
+    border-bottom: 50px solid transparent;
+    border-right:40px solid #ffffff;
+    position: relative;
+    bottom: 260px;
+    left: 530px;
+    
+
+}
+h1{
+    
+ font-size: 277%;
+    font-family:'Courier New', Courier, monospace;
+}
+h5{
+    display: block;
+    font-size: 0.83em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: -13px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:rgb(154, 155, 161) ;
+    
+}
+h3{
+
+    padding-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+   
+@media (max-width:700px){
+    body{
+        background-image: url(./images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-size: 150% ;
+        background-position-y: top ;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        margin-left: 150px;
+        margin-bottom: 123px;
+        
+       
+    }
+    .left{
+       
+        position: relative;
+        bottom: 60px;
+       left: 50px;
+       
+     }
+     .rect{
+         display: none;
+     }
+     .box1{
+         padding-right: 50px;
+     }
+     
+    .box2{
+        margin-right: 15px;
+        width: 270px;
+        padding-bottom: 20px;
+    }
+    }
+
